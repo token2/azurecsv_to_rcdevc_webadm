@@ -15,7 +15,7 @@ The source CSV should have the following columns:
 
 Example of source CSV:
 ```csv
-upn,serial number,secret key,timeinterval,manufacturer,model
+upn,serial number,secret key,time interval,manufacturer,model
 gulnara@token2.onmicrosoft.com,60234567,1234567890abcdef1234567890abcdef,30,Token2,c202
 ```
 
