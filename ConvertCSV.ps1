@@ -50,7 +50,7 @@ foreach ($row in $sourceData) {
 }
 
 # Write the output to the target CSV
-$header | Out-File -FilePath $targetCSV -Encoding UTF8
-$output | Export-Csv -Path $targetCSV -Append -NoTypeInformation -Encoding UTF8
+$header | Out-File -FilePath $targetCSV -Encoding ASCII
+$output | Export-Csv -Path $targetCSV -Append -NoTypeInformation -Encoding ASCII
 
 Write-Host "CSV conversion completed successfully. Output saved to $targetCSV"
